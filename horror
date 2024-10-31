@@ -1,0 +1,28 @@
+horror_characters = ["Freddy Kruger", "Jason Vorhees", "Michael Myers", "Pennywise", "Chucky"]
+
+for x in horror_characters:
+    if x == "Jason Vorhees":
+        continue
+else:
+    print(x)
+
+for x in horror_characters:
+    if x == "Michael Myers":
+        x = "Dracula"
+    if x == "Pennywise":
+        x = "Jeepers Creepers"
+    print(x)
+
+
+Horror_Movies = ["It", "The Nun", "The conjuring", "The conjuring 2", "Scream", "Trick 'or Treat"]
+
+for x in Horror_Movies:
+    if x == "It":
+        continue
+    else:
+        print(x)
+
+for x in Horror_Movies:  
+    if x == "The Nun":
+        x = "Smile"
+        print(x)
